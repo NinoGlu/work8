@@ -52,7 +52,14 @@ a{
 	margin-top: 240px;
 	width:100%;
 	flex-direction: row;
-    display: flex; 
-    justify-content: space-between;
-    align-items: flex-end;    
-    }
+  display: flex; 
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: center;
+} 
+.img{
+     transform: translateX(-225px);
+}
+ body{
+ 	background: blue;
+ }
