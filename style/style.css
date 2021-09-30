@@ -63,3 +63,37 @@ a{
  body{
  	background: blue;
  }
+ .bullets{
+    display: flex;
+    margin: 0 auto;
+    height: 20px;
+    width: 250px;
+}
+.bullet1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#fff;
+    margin-right: 20px;
+}
+.bullet2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 30%;
+    background-color: #fff;
+    margin-right: 20px;
+}
+ .arrows{
+    display: flex;
+    height: 35px;
+    width: 250px;
+    margin: 0 auto;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+  }
+  .arrow-left{
+    transform: rotate(180deg);
+    opacity: 30%;
+    margin-right: 22px;
+}
