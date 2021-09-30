@@ -37,9 +37,12 @@
 	align-items: center;
 }
 a{
+	text-decoration: none;
 	color: white;
+	font-family:"helveticaneue-regular";
 }
 .border{
+	font-family:"helveticaneue-bold";
 	border: 4px solid #fff;
 	padding: 18px 43px;
 	background-color: white;
